@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "certificates": "npx office-addin-dev-certs install",
+    "start": "npx cross-var npx http-server . -p 3000 -S --cert %USERPROFILE%\\.office-addin-dev-certs\\localhost.crt --key %USERPROFILE%\\.office-addin-dev-certs\\localhost.key"
+  }
+}
